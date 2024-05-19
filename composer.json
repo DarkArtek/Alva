@@ -1,0 +1,29 @@
+{
+  "name": "ahdcreative/alva",
+  "type": "phpvms-module",
+  "description": "",
+  "authors": [
+    {
+      "name": "Luca",
+      "email": "luca@ahd-creative.agency"
+    }
+  ],
+  "require": {
+    "composer/installers": ">1.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Modules\\Alva\\Providers\\AppServiceProvider",
+        "Modules\\Alva\\Providers\\EventServiceProvider",
+        "Modules\\Alva\\Providers\\RouteServiceProvider"
+      ],
+      "aliases": {}
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Alva\\": "."
+    }
+  }
+}

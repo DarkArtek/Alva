@@ -1,0 +1,16 @@
+{
+  "name": "Alva",
+  "alias": "alva",
+  "description": "",
+  "keywords": [],
+  "active": 1,
+  "order": 0,
+  "providers": [
+    "Modules\\Alva\\Providers\\AppServiceProvider",
+    "Modules\\Alva\\Providers\\EventServiceProvider",
+    "Modules\\Alva\\Providers\\RouteServiceProvider"
+  ],
+  "aliases": {},
+  "files": [],
+  "requires": []
+}
